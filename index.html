@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms & Tables</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <form>
+                        
+                                    <fieldset>
+                                        
+                                                        <legend>Your address</legend>
+                                                <div>
+                                                            <label style="margin-right:158px ;" for="name">First name</label>
+                                                            <input type="text" id="name" name="First name">
+                                                </div>
+                                                <br> 
+                                                
+                                                <div>
+                                                        <label style="margin-right:158px ;" for="surname">Last name</label>
+                                                        <input type="text" id="surname" name="Last name">
+                                                </div>
+                                                <br>
+                                                
+                                                <div>
+                                                    <label style="margin-right:188px ;" for="street">Street</label>
+                                                    <input type="text" id="street" name="Street">
+                                            </div>
+                                            <br>
+                                            
+                                            <div  class="d">
+                                                    <label style="margin-right:200px ;" for="city">City</label>
+                                                    <input type="text" id="city" name="city">
+                                            </div>
+                                </fieldset>
+                        
+                            
+                                <fieldset>
+                                        <legend>Additional details</legend>
+                                        
+                                        <div class="form" style="margin-top: 10px;margin-bottom: 6px;">
+                                                 <label style="margin-right: 164px;" for="textarea">Biography</label>
+                                                 <textarea required rows="3" cols="21" name="answer"></textarea>
+                                        </div>
+                                            <br>
+                                        
+                                            <div style="margin-top: 10px; padding: 0;">
+                                                <label style="margin-right: 190px;" for="image">Image</label>
+                                                <input type="file">
+                                            </div>
+                                            <br>
+                                        
+                                            <div style="margin-top: 8px;">
+                                                <label for="listing" style="margin-right: 155px;">Age Group</label>
+                                                    <p style="display: inline-block; margin-top: 0;">
+                                             <select name="list" id="listing" style="border-radius: 5px; height: 25px;">
+                                                        <option value="0 to 9 years">0 to 9 years</option>
+                                                        <option value="10 to 19 years">10 to 19 years</option>
+                                                        <option value="20 to 29 years">20 to 29 years</option>
+                                                        <option value="30 to 39 years">30 t0 39</option>
+                                                        <option value="40 and Above">40 and Above</option>
+                                             </select>
+                                                   </p>
+                                            </div>
+                                        
+                                    
+                                </fieldset>
+
+                                <fieldset>
+                                                <legend>Interests</legend>
+                                        <div style="margin-top: 10px;margin-bottom: 6px;" class="form">                       
+                                                        <label style="margin-right:170px ;"  for="hobbies">Hobbies</label>
+                                                <select size="4" style="overflow-y: hidden;" >
+                                                        <option value="Playing Soccer"> Playing Soccer</option>
+                                                        <option value="Train">Dancing</option>
+                                                        <option value="Bus">Gardening</option>
+                                                        <option value="Bus">Watching movies</option>
+                                                </select>     
+                                        </div>
+
+                                        <div style="margin-top: 0px; padding: 0;">
+                                            <label style="margin-right: 126px;" for="listing">Favourite car?</label>
+                                            <p style="display: inline-block; margin-top: 0;">
+                                                <select name="list" id="listing" style="border-radius: 5px; height: 25px;">
+                                                        <option value="Volvo">Volvo</option>
+                                                        <option value="Toyota">Toyota</option>
+                                                        <option value="Mercedes">Mercedes</option>
+                                                </select>
+                                            </p>
+                                        </div>
+
+                                        <div style="margin: 0px; position: relative; top: -14px;"  class="form">
+                                            <span style="margin-right: 50px; margin-top: 0;">
+                                                  <label for="transport_sys" style="margin-top: 0;">Favourite public transport?</label>
+                                            </span> 
+                                            <select name="transport" size="4" style="overflow-y: hidden; margin-top: 0; padding-right: 35px;"  >
+                                                    <optgroup label="Ground">
+                                                          <option value="Train">Train</option>
+                                                          <option value="Bus">Bus</option>
+                                                    </optgroup>
+                                                    <optgroup label="Water"></optgroup>
+                                            </select>     
+                                        </div>
+                        </fieldset>          
+        </form>
+</body>
+        </html>
